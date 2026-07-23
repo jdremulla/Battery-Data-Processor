@@ -4,9 +4,9 @@ import openpyxl
 import streamlit as st
 import io
 
-st.set_page_config(page_title="Battery Data Processor", layout="wide")
-st.title("Universal Battery Data Processor")
-st.write("Upload your raw test data to generate the processed Excel file and charts for DCA, DoD 17.5%, and DoD 50% tests.")
+st.set_page_config(page_title="BTL Test Result Processor", layout="wide")
+st.title("Automated Data Processing and Graph Generation for EN 50342 Test Protocols")
+st.write("Upload your raw test data to generate the processed Excel file and charts for DCA, DoD 17.5%, DoD 50% tests, and MHT.")
 
 # --- Step 1: Input Setup ---
 uploaded_file = st.file_uploader("Select Raw Data Excel File", type=["xlsx"])
